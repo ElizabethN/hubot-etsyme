@@ -19,6 +19,6 @@ Then add **hubot-etsyme** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> /etsy me beard shampoo
+hubot>> Men's Grooming Kit with Beard Shampoo! 
 ```
