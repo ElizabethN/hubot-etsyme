@@ -1,0 +1,39 @@
+{
+  "name": "hubot-etsyme",
+  "description": "Fetches a random active product from Etsy based on search criteria.",
+  "version": "0.0.0",
+  "author": "Elizabeth Naramore <elizabeth@github.com>",
+  "license": "MIT",
+
+  "keywords": ["hubot","hubot-scripts","etsy"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-etsyme.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-etsyme/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
